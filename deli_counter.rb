@@ -5,10 +5,8 @@ def line(array)
     puts "The line is currently empty."
   else
     current_queue = "The line is currently:"
-    position = 0
     for i in array do
-      position = i + 1
-      current_queue += " #{position}. #{array[i]}"
+      current_queue += " #{i + 1}. #{array[i]}"
     end
     puts current_queue
   end
