@@ -8,7 +8,6 @@ def line(array)
     position = 0
     for i in array do
       position = i + 1
-      puts position
       current_queue += " #{position}. #{array[i]}"
     end
     puts current_queue
